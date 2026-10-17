@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build:frontend",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://ais-pre-inb2ttctfdazzr5xwoejf6-571568638799.asia-southeast1.run.app/api/:path*"
+    }
+  ]
+}

@@ -420,7 +420,8 @@ export const ScanReceiptView: React.FC<ScanReceiptViewProps> = ({
     setScanEngineNotice(null);
 
     try {
-      const response = await fetch('/api/scan-receipt', {
+      const apiBaseUrl = ((import.meta as any).env?.VITE_API_BASE_URL || '').replace(/\/$/, '');
+      const response = await fetch(`${apiBaseUrl}/api/scan-receipt`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
