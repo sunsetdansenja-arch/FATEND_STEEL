@@ -1,9 +1,5 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "npm run build:frontend",
   "outputDirectory": "dist",
-  "functions": {
-    "api/[...path].ts": {
-      "maxDuration": 60
-    }
-  }
+  "framework": "vite"
 }
