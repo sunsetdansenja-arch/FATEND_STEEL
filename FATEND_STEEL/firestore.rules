@@ -1,0 +1,9 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Workshops data: allow read and write for the workshop management app
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}

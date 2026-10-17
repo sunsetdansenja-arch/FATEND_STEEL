@@ -1,0 +1,6 @@
+{
+  "name": "CV FATEND STEEL",
+  "description": "Aplikasi Manajemen Bengkel Las: Manajemen Proyek, Inventori Stok & Kartu Stok, Scan Nota AI, Buku Kas Harian Mandiri, Borongan Helper, Arus Kas & Laba, Kasbon Pekerja, dan Laporan Bulanan Siap Cetak.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
