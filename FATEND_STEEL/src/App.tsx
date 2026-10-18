@@ -31,7 +31,7 @@ const MainAppContent: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#0e1013] text-zinc-100 flex flex-col selection:bg-amber-500 selection:text-black">
+    <div className="min-h-dvh bg-[#0e1013] text-zinc-100 flex flex-col selection:bg-amber-500 selection:text-black">
       {/* PIN Login Screen Modal if not logged in */}
       <PinLoginModal />
 
@@ -39,7 +39,7 @@ const MainAppContent: React.FC = () => {
       <Navbar currentTab={currentTab} onSelectTab={setCurrentTab} />
 
       {/* Main Container */}
-      <main className="flex-1 max-w-7xl w-full mx-auto p-3 sm:p-6">
+      <main className="flex-1 max-w-7xl w-full mx-auto p-3 sm:p-6 pb-28 md:pb-6">
         {isLockedTab ? (
           <div className="p-8 sm:p-12 text-center bg-[#16181e] rounded-2xl border border-zinc-800 max-w-lg mx-auto my-8">
             <div className="w-14 h-14 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-amber-400 flex items-center justify-center mx-auto mb-4">
@@ -102,4 +102,3 @@ export default function App() {
     </AppProvider>
   );
 }
-
