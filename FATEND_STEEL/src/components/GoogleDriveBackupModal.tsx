@@ -512,7 +512,7 @@ export const GoogleDriveBackupModal: React.FC<GoogleDriveBackupModalProps> = ({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/80 backdrop-blur-sm animate-in fade-in">
-      <div className="relative w-full max-w-2xl bg-[#13151b] border border-amber-500/40 rounded-3xl shadow-2xl overflow-hidden flex flex-col max-h-[92vh]">
+      <div className="relative w-full max-w-2xl bg-[#13151b] border border-amber-500/40 rounded-3xl shadow-2xl overflow-hidden flex flex-col max-h-[92dvh]">
         {/* Modal Header */}
         <div className="p-4 sm:p-5 bg-gradient-to-r from-[#1c1e27] via-[#161821] to-[#12141a] border-b border-zinc-800 flex items-center justify-between">
           <div className="flex items-center gap-3">
