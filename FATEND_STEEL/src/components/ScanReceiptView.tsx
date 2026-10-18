@@ -1511,7 +1511,7 @@ export const ScanReceiptView: React.FC<ScanReceiptViewProps> = ({
       {/* RECEIPT PREVIEW MODAL */}
       {previewReceipt && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/85 backdrop-blur-sm overflow-y-auto">
-          <div className="w-full max-w-2xl bg-[#16181e] border border-amber-500/40 rounded-2xl shadow-2xl overflow-hidden my-4 max-h-[90vh] flex flex-col">
+          <div className="w-full max-w-2xl bg-[#16181e] border border-amber-500/40 rounded-2xl shadow-2xl overflow-hidden my-4 max-h-[90dvh] flex flex-col">
             <div className="p-4 bg-[#1a1c24] border-b border-zinc-800 flex items-center justify-between">
               <div>
                 <span className="text-xs font-mono text-amber-400 font-bold">
