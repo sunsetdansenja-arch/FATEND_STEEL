@@ -728,7 +728,7 @@ export const ProjectView: React.FC<ProjectViewProps> = ({
       {/* EDIT PROJECT MODAL */}
       {editingProject && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/80 backdrop-blur-sm animate-in fade-in">
-          <div className="w-full max-w-lg bg-[#181a20] border border-amber-500/40 rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[92vh]">
+          <div className="w-full max-w-lg bg-[#181a20] border border-amber-500/40 rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[92dvh]">
             <div className="p-4 bg-[#1e2029] border-b border-zinc-800 flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 rounded-lg bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400">
@@ -1030,7 +1030,7 @@ export const ProjectView: React.FC<ProjectViewProps> = ({
       {/* PROJECT DETAIL MODAL / DRAWER */}
       {selectedProject && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/85 backdrop-blur-sm overflow-y-auto">
-          <div className="w-full max-w-4xl bg-[#16181e] border border-zinc-700/80 rounded-2xl shadow-2xl overflow-hidden my-4 max-h-[92vh] flex flex-col">
+          <div className="w-full max-w-4xl bg-[#16181e] border border-zinc-700/80 rounded-2xl shadow-2xl overflow-hidden my-4 max-h-[92dvh] flex flex-col">
             {/* Header */}
             <div className="p-4 bg-[#1a1c24] border-b border-zinc-800 flex items-start justify-between gap-3">
               <div>
@@ -2484,7 +2484,7 @@ export const ProjectView: React.FC<ProjectViewProps> = ({
       {/* MODAL PILIH BAHAN DARI STOK GUDANG (TABLE LIST SEPERTI TAMPILAN STOK, BUKAN GRID) */}
       {showStockPickerModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/80 backdrop-blur-sm animate-in fade-in">
-          <div className="relative w-full max-w-4xl bg-[#14161d] border border-amber-500/40 rounded-2xl shadow-2xl flex flex-col max-h-[90vh] overflow-hidden">
+          <div className="relative w-full max-w-4xl bg-[#14161d] border border-amber-500/40 rounded-2xl shadow-2xl flex flex-col max-h-[90dvh] overflow-hidden">
             {/* Modal Header */}
             <div className="p-3.5 sm:p-4 bg-gradient-to-r from-[#1c1e27] via-[#161821] to-[#14161d] border-b border-zinc-800 flex items-center justify-between shrink-0">
               <div className="flex items-center gap-2.5">
