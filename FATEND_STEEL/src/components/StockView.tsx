@@ -901,7 +901,7 @@ export const StockView: React.FC = () => {
       {/* MODAL KARTU STOK (MUTATION HISTORY) */}
       {selectedStockCardItem && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/85 backdrop-blur-sm overflow-y-auto">
-          <div className="w-full max-w-3xl bg-[#16181e] border border-amber-500/40 rounded-2xl shadow-2xl overflow-hidden my-4 max-h-[90vh] flex flex-col">
+          <div className="w-full max-w-3xl bg-[#16181e] border border-amber-500/40 rounded-2xl shadow-2xl overflow-hidden my-4 max-h-[90dvh] flex flex-col">
             <div className="p-4 bg-[#1a1c24] border-b border-zinc-800 flex items-center justify-between">
               <div>
                 <div className="flex items-center gap-2">
